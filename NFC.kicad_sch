@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "259074ce-c208-474c-b984-bcc78dbf2a94")
 	(paper "A4")
+	(title_block
+		(title "Homekey PCB ESP32C3")
+		(date "2024-07-03")
+		(rev "Rev A")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
 			(pin_numbers hide)

@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "6f351216-89e9-4193-9483-0ee63ac68d19")
 	(paper "A4")
+	(title_block
+		(title "Homekey PCB ESP32C3")
+		(date "2024-07-03")
+		(rev "Rev A")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
@@ -2928,7 +2933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38abcf90-aa90-44a6-a679-7bbb32d9b8ee")
-		(property "Reference" "TX"
+		(property "Reference" "TX1"
 			(at 178.816 85.09 90)
 			(effects
 				(font
@@ -2980,7 +2985,7 @@
 		(instances
 			(project ""
 				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/41d98d3b-40e8-42b4-9eac-bd82a45a039c"
-					(reference "TX")
+					(reference "TX1")
 					(unit 1)
 				)
 			)
@@ -3386,7 +3391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "616d2a6e-0b3a-4f22-b6a1-9666b0ee212a")
-		(property "Reference" "RX"
+		(property "Reference" "RX1"
 			(at 178.562 82.55 90)
 			(effects
 				(font
@@ -3438,7 +3443,7 @@
 		(instances
 			(project "Homekey"
 				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/41d98d3b-40e8-42b4-9eac-bd82a45a039c"
-					(reference "RX")
+					(reference "RX1")
 					(unit 1)
 				)
 			)
@@ -4036,7 +4041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "978e2c5c-9f74-4520-91ff-85c3e4f693b8")
-		(property "Reference" "BOOT"
+		(property "Reference" "BOOT1"
 			(at 127 138.43 0)
 			(effects
 				(font
@@ -4091,7 +4096,7 @@
 		(instances
 			(project "Homekey"
 				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/41d98d3b-40e8-42b4-9eac-bd82a45a039c"
-					(reference "BOOT")
+					(reference "BOOT1")
 					(unit 1)
 				)
 			)
@@ -4172,7 +4177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9af6e9d6-377e-4fdc-a2de-13be2522871e")
-		(property "Reference" "RST"
+		(property "Reference" "RST1"
 			(at 93.98 138.43 0)
 			(effects
 				(font
@@ -4227,7 +4232,7 @@
 		(instances
 			(project "Homekey"
 				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/41d98d3b-40e8-42b4-9eac-bd82a45a039c"
-					(reference "RST")
+					(reference "RST1")
 					(unit 1)
 				)
 			)
