@@ -2548,6 +2548,12 @@
 		(uuid "1c209915-70eb-4c74-9a25-801a012ccc85")
 	)
 	(junction
+		(at 110.49 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d003b2d-5a63-4fe1-927c-d937a7c46a28")
+	)
+	(junction
 		(at 147.32 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2636,12 +2642,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9afb98df-f7ff-4115-a5d4-fe94e5f0abc0")
-	)
-	(junction
-		(at 110.49 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e81abfb-69a9-43af-9763-3ec0976e5ce2")
 	)
 	(junction
 		(at 139.7 36.83)
@@ -3177,16 +3177,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 95.25) (xy 110.49 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5880fc05-a270-480a-9322-e235ca738ee5")
-	)
-	(wire
-		(pts
 			(xy 204.47 105.41) (xy 204.47 106.68)
 		)
 		(stroke
@@ -3337,7 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 95.25) (xy 116.84 95.25)
+			(xy 105.41 95.25) (xy 110.49 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3734,6 +3724,16 @@
 			(type default)
 		)
 		(uuid "d74168c6-c711-4de6-9799-334344fe9629")
+	)
+	(wire
+		(pts
+			(xy 110.49 95.25) (xy 116.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3fa323-7e35-45a7-9c29-7aa12907800f")
 	)
 	(wire
 		(pts
@@ -4922,100 +4922,6 @@
 			(project "Homekey"
 				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/18dde409-6af5-4dc2-8e7a-03cef80bd424"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 110.49 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ab9d9f8-5e3a-4e03-aedb-25be77dd23ff")
-		(property "Reference" "R1"
-			(at 105.2322 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 107.5436 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RevK:R_0603"
-			(at 108.712 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 110.49 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No" "0603-10K"
-			(at 110.49 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 110.49 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a35a1579-f0a9-4da4-8093-b34bd76b0fe6")
-		)
-		(pin "2"
-			(uuid "7025ad86-bb3d-466e-a6c6-b3408f18f77c")
-		)
-		(instances
-			(project "Homekey"
-				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/18dde409-6af5-4dc2-8e7a-03cef80bd424"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7941,6 +7847,100 @@
 			(project "Homekey"
 				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/18dde409-6af5-4dc2-8e7a-03cef80bd424"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e929c4f8-b1b6-4c0d-9137-d940587895e6")
+		(property "Reference" "R1"
+			(at 105.2322 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 107.5436 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RevK:R_0603"
+			(at 108.712 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 110.49 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "0603-10K"
+			(at 110.49 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 110.49 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f2ebc21-6157-43de-81e1-29c03ebcaa08")
+		)
+		(pin "2"
+			(uuid "341c2836-9a4c-47d5-9253-7485faf1b96d")
+		)
+		(instances
+			(project "Homekey"
+				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/18dde409-6af5-4dc2-8e7a-03cef80bd424"
+					(reference "R1")
 					(unit 1)
 				)
 			)
