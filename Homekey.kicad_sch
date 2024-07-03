@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8ef12b84-4556-413e-8e5a-ce52402aeac0")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 100.33 31.75)
+		(size 17.78 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18dde409-6af5-4dc2-8e7a-03cef80bd424")
+		(property "Sheetname" "NFC"
+			(at 100.33 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NFC.kicad_sch"
+			(at 100.33 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Homekey"
+				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 31.75)
+		(size 20.32 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41d98d3b-40e8-42b4-9eac-bd82a45a039c")
+		(property "Sheetname" "ESP32"
+			(at 129.54 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 129.54 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Homekey"
+				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 31.75)
+		(size 19.05 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e280ed20-7e15-4ef2-ac9d-516095406e26")
+		(property "Sheetname" "Power"
+			(at 160.02 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 160.02 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Homekey"
+				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
