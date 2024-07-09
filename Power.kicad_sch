@@ -2362,12 +2362,6 @@
 		(uuid "55fa1171-c833-4ecf-bf02-4f9014bf8e1c")
 	)
 	(junction
-		(at 83.82 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57aa7343-778e-470d-9faa-88f7d9e702f4")
-	)
-	(junction
 		(at 85.09 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5216,71 +5210,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e369df40-c428-4701-91e3-cb323443926f")
-		(property "Reference" "#PWR033"
-			(at 83.82 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d46bd620-6b42-4fc2-806e-ca59c710b0f5")
-		)
-		(instances
-			(project "Homekey"
-				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/e280ed20-7e15-4ef2-ac9d-516095406e26"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 67.31 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5339,75 +5268,6 @@
 			(project "Homekey"
 				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/e280ed20-7e15-4ef2-ac9d-516095406e26"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 83.82 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e512090c-c865-4b7a-8213-c075a9c89c3a")
-		(property "Reference" "C29"
-			(at 84.074 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 84.074 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 84.7852 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47a9cf56-e826-48b4-861c-f6d6d09a26f8")
-		)
-		(pin "1"
-			(uuid "cb91f17b-bb3f-40da-919f-da40546c048b")
-		)
-		(instances
-			(project "Homekey"
-				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/e280ed20-7e15-4ef2-ac9d-516095406e26"
-					(reference "C29")
 					(unit 1)
 				)
 			)

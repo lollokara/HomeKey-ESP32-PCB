@@ -166,134 +166,6 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint_2Pole"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_2Pole"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2-polar test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_2Pole_0_1"
-				(circle
-					(center -1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2661,12 +2533,6 @@
 		(uuid "0c60e3fa-b6cf-48c1-94a0-ad0622553e5b")
 	)
 	(junction
-		(at 210.82 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1068da2b-5ab0-4acd-839f-a146ad0d1311")
-	)
-	(junction
 		(at 82.55 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2779,12 +2645,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9aa1cfef-e04d-431f-ab06-d09e964bedaf")
-	)
-	(junction
-		(at 210.82 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9afb98df-f7ff-4115-a5d4-fe94e5f0abc0")
 	)
 	(junction
 		(at 139.7 36.83)
@@ -2916,16 +2776,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 142.24) (xy 209.55 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03a7f2ca-ffab-45ec-981e-4925f93b50b4")
-	)
-	(wire
-		(pts
 			(xy 240.03 142.24) (xy 234.95 142.24)
 		)
 		(stroke
@@ -3046,7 +2896,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 121.92) (xy 210.82 121.92)
+			(xy 209.55 121.92) (xy 217.17 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3133,16 +2983,6 @@
 			(type default)
 		)
 		(uuid "32804c13-c830-4c9b-93e1-d3f15e204bea")
-	)
-	(wire
-		(pts
-			(xy 210.82 127) (xy 210.82 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32f45b1b-eb25-4464-bad0-7648e2b774ee")
 	)
 	(wire
 		(pts
@@ -3366,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 142.24) (xy 210.82 142.24)
+			(xy 209.55 142.24) (xy 217.17 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3583,16 +3423,6 @@
 			(type default)
 		)
 		(uuid "a86a3c25-0075-4d05-8126-90190418ba6d")
-	)
-	(wire
-		(pts
-			(xy 210.82 142.24) (xy 210.82 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8e113fd-9145-46ac-9262-add1c9d204a9")
 	)
 	(wire
 		(pts
@@ -3883,16 +3713,6 @@
 			(type default)
 		)
 		(uuid "e4859f0e-5dba-4110-b1af-d20882006cb1")
-	)
-	(wire
-		(pts
-			(xy 210.82 121.92) (xy 209.55 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9dc1826-9111-4a69-a88b-3bf946fee236")
 	)
 	(wire
 		(pts
@@ -5502,7 +5322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34226e3f-8973-4994-9866-1065bb0375d5")
-		(property "Reference" "JP2"
+		(property "Reference" "SEL1"
 			(at 184.15 46.99 0)
 			(effects
 				(font
@@ -5557,7 +5377,7 @@
 		(instances
 			(project "Homekey"
 				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/18dde409-6af5-4dc2-8e7a-03cef80bd424"
-					(reference "JP2")
+					(reference "SEL1")
 					(unit 1)
 				)
 			)
@@ -6254,7 +6074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5537f23b-82c1-4e1d-8592-9f294c0332e8")
-		(property "Reference" "JP1"
+		(property "Reference" "SEL0"
 			(at 184.15 35.56 0)
 			(effects
 				(font
@@ -6309,7 +6129,7 @@
 		(instances
 			(project "Homekey"
 				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/18dde409-6af5-4dc2-8e7a-03cef80bd424"
-					(reference "JP1")
+					(reference "SEL0")
 					(unit 1)
 				)
 			)
@@ -7415,85 +7235,6 @@
 			(project "Homekey"
 				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/18dde409-6af5-4dc2-8e7a-03cef80bd424"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 210.82 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "acb44778-70ba-48f6-9f09-6ee2d89a32e5")
-		(property "Reference" "TP1"
-			(at 215.138 132.334 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 209.3468 130.937 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 210.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "No part, PCB printed"
-			(at 210.82 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19b6b2fb-e825-492c-a282-ea127ddb38b4")
-		)
-		(pin "2"
-			(uuid "043c4d39-2d3d-4f8c-853b-9677d5a9d76e")
-		)
-		(instances
-			(project "Homekey"
-				(path "/8ef12b84-4556-413e-8e5a-ce52402aeac0/18dde409-6af5-4dc2-8e7a-03cef80bd424"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
