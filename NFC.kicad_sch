@@ -988,127 +988,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
 				(offset 0) hide)
@@ -1345,6 +1224,265 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_Capacitor_US_AKL:C_0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_0603"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0603_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_Resistor_AKL:R_0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_0603"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor eu SMD 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2511,7 +2649,7 @@
 		)
 	)
 	(junction
-		(at 219.71 106.68)
+		(at 255.27 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "081c5b64-ba5f-40fd-b60a-0e7209038522")
@@ -2523,7 +2661,7 @@
 		(uuid "0c60e3fa-b6cf-48c1-94a0-ad0622553e5b")
 	)
 	(junction
-		(at 175.26 86.36)
+		(at 210.82 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1068da2b-5ab0-4acd-839f-a146ad0d1311")
@@ -2541,7 +2679,7 @@
 		(uuid "160c6eba-23d7-4c12-9db2-2f9e79048e9c")
 	)
 	(junction
-		(at 219.71 96.52)
+		(at 255.27 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17d5ef1d-b14b-4786-bc7c-5834e8ace9cb")
@@ -2565,13 +2703,13 @@
 		(uuid "21a60013-0344-4c6f-9c00-6d4a8fe7ba1b")
 	)
 	(junction
-		(at 204.47 86.36)
+		(at 240.03 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26fa8c10-a1c3-4bf0-bbdf-952616f3e874")
 	)
 	(junction
-		(at 204.47 96.52)
+		(at 240.03 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28113038-79c1-4ed7-87b3-d904f5a77b23")
@@ -2583,13 +2721,13 @@
 		(uuid "2c249b0d-6cca-4e1d-a7a1-a5b301b19b8c")
 	)
 	(junction
-		(at 204.47 106.68)
+		(at 240.03 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31727dbf-73e6-4529-af5a-b601b8d48e61")
 	)
 	(junction
-		(at 199.39 106.68)
+		(at 234.95 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33c5553e-9a55-4ac9-bae0-8a5f77a13f3a")
@@ -2601,13 +2739,13 @@
 		(uuid "41925836-9555-46fe-8ec4-fefc92ff8363")
 	)
 	(junction
-		(at 199.39 86.36)
+		(at 234.95 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48bcf5cc-2c9c-42f6-a4b9-04eed9db8e73")
 	)
 	(junction
-		(at 199.39 96.52)
+		(at 234.95 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49def3dc-216c-45fc-9792-115881c5ca2a")
@@ -2625,7 +2763,7 @@
 		(uuid "4fb7a227-65e0-4107-b736-a49c40ecd045")
 	)
 	(junction
-		(at 219.71 86.36)
+		(at 255.27 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "613d4bb2-b8fd-4e7b-9554-001745a9a348")
@@ -2643,7 +2781,7 @@
 		(uuid "9aa1cfef-e04d-431f-ab06-d09e964bedaf")
 	)
 	(junction
-		(at 175.26 106.68)
+		(at 210.82 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9afb98df-f7ff-4115-a5d4-fe94e5f0abc0")
@@ -2665,6 +2803,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b07dc765-ffd4-4d52-82a8-2c9c46e5b8ae")
+	)
+	(junction
+		(at 227.33 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bad5ee66-d386-46ae-aac3-af441bd5735f")
 	)
 	(junction
 		(at 170.18 110.49)
@@ -2772,7 +2916,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 106.68) (xy 170.18 106.68)
+			(xy 210.82 142.24) (xy 209.55 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2782,7 +2926,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 106.68) (xy 199.39 106.68)
+			(xy 240.03 142.24) (xy 234.95 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2882,26 +3026,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 93.98) (xy 170.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "130c4a2f-78f5-4b9c-bdce-160fbff3f3ba")
-	)
-	(wire
-		(pts
-			(xy 166.37 97.79) (xy 166.37 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1402e871-eb1b-4a4f-b493-d882fdc8f013")
-	)
-	(wire
-		(pts
 			(xy 158.75 68.58) (xy 160.02 68.58)
 		)
 		(stroke
@@ -2912,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 106.68) (xy 189.23 106.68)
+			(xy 234.95 142.24) (xy 224.79 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +3046,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 86.36) (xy 175.26 86.36)
+			(xy 217.17 121.92) (xy 210.82 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2952,16 +3076,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 95.25) (xy 166.37 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21542de8-84c9-4027-b499-9bbec86da647")
-	)
-	(wire
-		(pts
 			(xy 105.41 110.49) (xy 116.84 110.49)
 		)
 		(stroke
@@ -2969,16 +3083,6 @@
 			(type default)
 		)
 		(uuid "22e20029-901b-498b-be65-95074dff3608")
-	)
-	(wire
-		(pts
-			(xy 157.48 95.25) (xy 166.37 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22f647d8-5e38-4f8a-b3e0-d0ad6ede452c")
 	)
 	(wire
 		(pts
@@ -3012,16 +3116,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 93.98) (xy 170.18 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db9d5d6-6b68-407a-a466-df2ad254c232")
-	)
-	(wire
-		(pts
 			(xy 105.41 105.41) (xy 116.84 105.41)
 		)
 		(stroke
@@ -3032,7 +3126,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 91.44) (xy 175.26 86.36)
+			(xy 227.33 119.38) (xy 227.33 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32804c13-c830-4c9b-93e1-d3f15e204bea")
+	)
+	(wire
+		(pts
+			(xy 210.82 127) (xy 210.82 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3062,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 96.52) (xy 190.5 96.52)
+			(xy 234.95 132.08) (xy 226.06 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 86.36) (xy 208.28 86.36)
+			(xy 240.03 121.92) (xy 243.84 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3099,16 +3203,6 @@
 			(type default)
 		)
 		(uuid "420653f8-42a4-4acf-bb3a-e34cd1a9e9a9")
-	)
-	(wire
-		(pts
-			(xy 166.37 99.06) (xy 170.18 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "426a6287-ea90-4a6b-87a2-ec96c85a80c6")
 	)
 	(wire
 		(pts
@@ -3142,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 87.63) (xy 199.39 86.36)
+			(xy 234.95 123.19) (xy 234.95 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3162,7 +3256,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 96.52) (xy 219.71 99.06)
+			(xy 255.27 132.08) (xy 255.27 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3172,7 +3266,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 95.25) (xy 204.47 96.52)
+			(xy 240.03 130.81) (xy 240.03 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3182,23 +3276,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 105.41) (xy 204.47 106.68)
+			(xy 240.03 140.97) (xy 240.03 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5aad0eda-8e7c-4e84-bca3-de18c9a67c33")
-	)
-	(wire
-		(pts
-			(xy 170.18 106.68) (xy 170.18 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b83c521-6b98-4126-abb7-8b0d0cb902a9")
 	)
 	(wire
 		(pts
@@ -3212,7 +3296,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 93.98) (xy 219.71 96.52)
+			(xy 255.27 129.54) (xy 255.27 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3222,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 106.68) (xy 219.71 106.68)
+			(xy 251.46 142.24) (xy 255.27 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3242,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 106.68) (xy 224.79 106.68)
+			(xy 255.27 142.24) (xy 260.35 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3282,7 +3366,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 106.68) (xy 175.26 106.68)
+			(xy 217.17 142.24) (xy 210.82 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3322,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 97.79) (xy 199.39 96.52)
+			(xy 234.95 133.35) (xy 234.95 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3362,7 +3446,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 86.36) (xy 199.39 86.36)
+			(xy 240.03 121.92) (xy 234.95 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3412,7 +3496,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 96.52) (xy 199.39 96.52)
+			(xy 240.03 132.08) (xy 234.95 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3422,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 96.52) (xy 199.39 95.25)
+			(xy 234.95 132.08) (xy 234.95 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3432,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 99.06) (xy 232.41 106.68)
+			(xy 267.97 134.62) (xy 267.97 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3472,7 +3556,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 86.36) (xy 232.41 93.98)
+			(xy 267.97 121.92) (xy 267.97 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3502,7 +3586,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 106.68) (xy 175.26 101.6)
+			(xy 210.82 142.24) (xy 210.82 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3532,7 +3616,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 96.52) (xy 204.47 97.79)
+			(xy 240.03 132.08) (xy 240.03 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3542,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 86.36) (xy 224.79 86.36)
+			(xy 255.27 121.92) (xy 260.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3572,6 +3656,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 95.25) (xy 166.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb787eba-d66a-4e02-9e68-1b1d974ad3a2")
+	)
+	(wire
+		(pts
 			(xy 139.7 151.13) (xy 139.7 153.67)
 		)
 		(stroke
@@ -3582,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 106.68) (xy 199.39 105.41)
+			(xy 234.95 142.24) (xy 234.95 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3692,7 +3786,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 96.52) (xy 204.47 96.52)
+			(xy 255.27 132.08) (xy 240.03 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3782,7 +3876,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 86.36) (xy 170.18 86.36)
+			(xy 227.33 121.92) (xy 224.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4859f0e-5dba-4110-b1af-d20882006cb1")
+	)
+	(wire
+		(pts
+			(xy 210.82 121.92) (xy 209.55 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3842,7 +3946,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 106.68) (xy 208.28 106.68)
+			(xy 240.03 142.24) (xy 243.84 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3862,7 +3966,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 87.63) (xy 204.47 86.36)
+			(xy 240.03 123.19) (xy 240.03 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3872,7 +3976,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 86.36) (xy 189.23 86.36)
+			(xy 234.95 121.92) (xy 227.33 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3882,17 +3986,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 110.49) (xy 204.47 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb2fe571-d759-4f9f-a138-419355ba3468")
-	)
-	(wire
-		(pts
-			(xy 215.9 86.36) (xy 219.71 86.36)
+			(xy 251.46 121.92) (xy 255.27 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3922,7 +4016,7 @@
 	)
 	(text "To be tested with 68pF"
 		(exclude_from_sim no)
-		(at 211.582 82.55 0)
+		(at 246.38 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3952,6 +4046,28 @@
 			)
 		)
 	)
+	(global_label "NFC_TX2"
+		(shape input)
+		(at 166.37 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cfaf9c7-119e-4bb4-ae6c-8cdc2b71c2cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.3985 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 105.41 107.95 180)
@@ -3970,6 +4086,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NFC_RX1"
+		(shape input)
+		(at 204.47 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38394aaa-e303-494c-89dc-7507b40d6354")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.8009 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4061,6 +4199,28 @@
 			)
 		)
 	)
+	(global_label "NFC_TX2"
+		(shape input)
+		(at 209.55 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8523996c-090c-44c3-8c74-a8ccc927d955")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.5215 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 105.41 105.41 180)
@@ -4079,6 +4239,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NFC_RX1"
+		(shape input)
+		(at 227.33 119.38 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a291b4cb-00cc-44aa-9619-d0e5d4e08c90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 108.0491 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4105,6 +4287,28 @@
 			)
 		)
 	)
+	(global_label "NFC_TX1"
+		(shape input)
+		(at 166.37 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aba5ca7c-89a8-4eed-aa2a-cc34acc4da85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.3985 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MISO_NFC"
 		(shape input)
 		(at 105.41 110.49 180)
@@ -4118,6 +4322,28 @@
 		(uuid "bac8944d-c706-4bfe-ae91-c1b02cd82de1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.1719 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NFC_TX1"
+		(shape input)
+		(at 209.55 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0989a6b-51e7-4c19-a4c8-284e75f64346")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.5215 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4626,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
 		(at 146.05 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4426,7 +4652,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 145.0848 72.39 0)
 			(effects
 				(font
@@ -4470,7 +4696,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 96.52 270)
+		(at 226.06 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4478,7 +4704,7 @@
 		(dnp no)
 		(uuid "06ea1158-e6c8-473d-af5c-62fc76a20094")
 		(property "Reference" "#PWR021"
-			(at 184.15 96.52 0)
+			(at 219.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,7 +4713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.2488 96.647 90)
+			(at 222.8088 132.207 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,7 +4722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 96.52 0)
+			(at 226.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 96.52 0)
+			(at 226.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,7 +4740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 96.52 0)
+			(at 226.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4762,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 232.41 96.52 90)
+		(at 267.97 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4545,7 +4771,7 @@
 		(fields_autoplaced yes)
 		(uuid "0702d3fd-6931-468b-bf38-8525416d1302")
 		(property "Reference" "J1"
-			(at 234.95 95.7694 90)
+			(at 270.51 131.3294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4780,7 @@
 			)
 		)
 		(property "Value" "Hirose"
-			(at 234.95 98.3094 90)
+			(at 270.51 133.8694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4789,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 232.41 96.52 0)
+			(at 267.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 96.52 0)
+			(at 267.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4807,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 232.41 96.52 0)
+			(at 267.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +4831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
 		(at 116.84 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4631,7 +4857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 115.8748 72.39 0)
 			(effects
 				(font
@@ -4743,7 +4969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 170.18 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4769,8 +4995,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 168.402 114.3 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 170.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +5066,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 185.42 86.36 270)
+		(at 220.98 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4848,7 +5074,7 @@
 		(dnp no)
 		(uuid "1a8a4cfb-5e67-41f6-a0c6-d5f9eccf40a9")
 		(property "Reference" "L1"
-			(at 185.42 91.186 90)
+			(at 220.98 126.746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,15 +5082,15 @@
 			)
 		)
 		(property "Value" "560nH"
-			(at 185.42 88.8746 90)
+			(at 220.98 124.4346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RevK:L_1206_1008"
-			(at 185.42 86.36 0)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 220.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +5099,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/81-LQW2UASR56G00L"
-			(at 185.42 86.36 0)
+			(at 220.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +5108,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 86.36 0)
+			(at 220.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +5117,7 @@
 			)
 		)
 		(property "Note" "High quality inductor"
-			(at 185.42 86.36 90)
+			(at 220.98 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +5126,7 @@
 			)
 		)
 		(property "Part No" "LQW2UASR56G00L"
-			(at 185.42 86.36 90)
+			(at 220.98 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +5135,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 185.42 86.36 90)
+			(at 220.98 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5226,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
 		(at 140.97 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5026,7 +5252,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 140.0048 53.34 0)
 			(effects
 				(font
@@ -5292,7 +5518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 184.15 53.34 0)
 			(effects
 				(font
@@ -5429,7 +5655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RevK:Crystal-3.2x2.5"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 99.06 134.62 0)
 			(effects
 				(font
@@ -5563,8 +5789,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 228.6 86.36 90)
+		(lib_id "PCM_Resistor_AKL:R_0603")
+		(at 264.16 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5572,7 +5798,7 @@
 		(dnp no)
 		(uuid "42061ede-dd6a-428d-aac8-8c7a832a60de")
 		(property "Reference" "R4"
-			(at 224.028 84.836 90)
+			(at 259.588 120.396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5580,15 +5806,15 @@
 			)
 		)
 		(property "Value" "1R5 1%"
-			(at 228.346 82.55 90)
+			(at 263.906 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 228.6 88.138 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 275.59 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5823,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06031R50FKEA"
-			(at 228.6 86.36 0)
+			(at 264.16 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +5832,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 86.36 0)
+			(at 264.16 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5841,7 @@
 			)
 		)
 		(property "Note" "0603"
-			(at 228.6 86.36 90)
+			(at 264.16 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +5850,7 @@
 			)
 		)
 		(property "Part No" "CRCW06031R50FKEA"
-			(at 228.6 86.36 90)
+			(at 264.16 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5859,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 228.6 86.36 90)
+			(at 264.16 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +6014,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 185.42 106.68 90)
+		(at 220.98 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5796,7 +6022,7 @@
 		(dnp no)
 		(uuid "4d3ab225-149a-4951-a99b-47d01ee3c8be")
 		(property "Reference" "L2"
-			(at 185.42 104.394 90)
+			(at 220.98 139.954 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,15 +6030,15 @@
 			)
 		)
 		(property "Value" "560nH"
-			(at 185.674 102.362 90)
+			(at 221.234 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RevK:L_1206_1008"
-			(at 185.42 106.68 0)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 220.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +6047,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/81-LQW2UASR56G00L"
-			(at 185.42 106.68 0)
+			(at 220.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +6056,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 106.68 0)
+			(at 220.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +6065,7 @@
 			)
 		)
 		(property "Note" "High quality inductor"
-			(at 185.42 106.68 90)
+			(at 220.98 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +6074,7 @@
 			)
 		)
 		(property "Part No" "LQW2UASR56G00L"
-			(at 185.42 106.68 90)
+			(at 220.98 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +6083,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 185.42 106.68 90)
+			(at 220.98 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6270,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 184.15 41.91 0)
 			(effects
 				(font
@@ -6285,8 +6511,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 212.09 86.36 90)
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 247.65 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6294,7 +6520,7 @@
 		(dnp no)
 		(uuid "6108531c-42f4-4742-974c-e36138ee66ed")
 		(property "Reference" "C20"
-			(at 215.392 88.138 90)
+			(at 250.952 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6302,15 +6528,15 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 212.598 90.17 90)
+			(at 248.158 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RevK:C_0603"
-			(at 215.9 85.3948 0)
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 251.46 120.9548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,7 +6545,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/791-0603N220F500CT"
-			(at 212.09 86.36 0)
+			(at 247.65 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,7 +6554,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 86.36 0)
+			(at 247.65 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +6563,7 @@
 			)
 		)
 		(property "Note" "0603"
-			(at 212.09 86.36 90)
+			(at 247.65 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6346,7 +6572,7 @@
 			)
 		)
 		(property "Part No" "0603N220F500CT"
-			(at 212.09 86.36 90)
+			(at 247.65 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,7 +6581,7 @@
 			)
 		)
 		(property "Manufacturer" "Walsin"
-			(at 212.09 86.36 90)
+			(at 247.65 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,8 +6605,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 212.09 106.68 90)
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 247.65 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6388,7 +6614,7 @@
 		(dnp no)
 		(uuid "71069070-847e-4492-af94-9a7149eb81f9")
 		(property "Reference" "C21"
-			(at 215.392 105.156 90)
+			(at 250.952 140.716 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,15 +6622,15 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 212.344 102.87 90)
+			(at 247.904 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RevK:C_0603"
-			(at 215.9 105.7148 0)
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 251.46 141.2748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +6639,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/791-0603N220F500CT"
-			(at 212.09 106.68 0)
+			(at 247.65 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6648,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 106.68 0)
+			(at 247.65 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +6657,7 @@
 			)
 		)
 		(property "Note" "0603"
-			(at 212.09 106.68 90)
+			(at 247.65 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,7 +6666,7 @@
 			)
 		)
 		(property "Part No" "0603N220F500CT"
-			(at 212.09 106.68 90)
+			(at 247.65 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,7 +6675,7 @@
 			)
 		)
 		(property "Manufacturer" "Walsin"
-			(at 212.09 106.68 90)
+			(at 247.65 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6473,7 +6699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
 		(at 90.17 138.43 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6499,7 +6725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RevK:C_0603"
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 86.36 139.3952 0)
 			(effects
 				(font
@@ -6902,7 +7128,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
 		(at 186.69 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6926,7 +7152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RevK:C_0603"
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 190.5 109.5248 0)
 			(effects
 				(font
@@ -7061,8 +7287,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 204.47 91.44 180)
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 240.03 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7070,7 +7296,7 @@
 		(dnp no)
 		(uuid "a2c31c90-de88-4ba6-932a-596b8c6ae3e0")
 		(property "Reference" "C18"
-			(at 204.724 93.472 0)
+			(at 240.284 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,7 +7305,7 @@
 			)
 		)
 		(property "Value" "NC"
-			(at 204.724 89.408 0)
+			(at 240.284 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,8 +7313,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 203.5048 87.63 0)
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 239.0648 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7097,7 +7323,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 91.44 0)
+			(at 240.03 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7106,7 +7332,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 91.44 0)
+			(at 240.03 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7422,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
-		(at 175.26 96.52 90)
+		(at 210.82 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7204,7 +7430,7 @@
 		(dnp no)
 		(uuid "acb44778-70ba-48f6-9f09-6ee2d89a32e5")
 		(property "Reference" "TP1"
-			(at 173.7868 97.6884 90)
+			(at 215.138 132.334 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,7 +7439,7 @@
 			)
 		)
 		(property "Value" "TestPoint_2Pole"
-			(at 173.7868 95.377 90)
+			(at 209.3468 130.937 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,8 +7448,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RevK:PN532-RF-Test"
-			(at 175.26 96.52 0)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 210.82 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,7 +7458,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 96.52 0)
+			(at 210.82 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7241,7 +7467,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 96.52 0)
+			(at 210.82 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7250,7 +7476,7 @@
 			)
 		)
 		(property "Note" "No part, PCB printed"
-			(at 175.26 96.52 90)
+			(at 210.82 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7500,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
 		(at 139.7 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7300,7 +7526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 138.7348 36.83 0)
 			(effects
 				(font
@@ -7409,8 +7635,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 219.71 102.87 180)
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 255.27 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7418,7 +7644,7 @@
 		(dnp no)
 		(uuid "c41aaef8-802d-415d-9c19-fce453354b7d")
 		(property "Reference" "C23"
-			(at 223.774 105.156 0)
+			(at 259.334 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,7 +7653,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 226.06 100.838 0)
+			(at 261.62 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7435,8 +7661,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RevK:C_0603"
-			(at 218.7448 99.06 0)
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 254.3048 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 102.87 0)
+			(at 255.27 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +7680,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 102.87 0)
+			(at 255.27 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,7 +7689,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 219.71 102.87 0)
+			(at 255.27 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,7 +7698,7 @@
 			)
 		)
 		(property "Part No" "0603-100pF-50V"
-			(at 219.71 102.87 0)
+			(at 255.27 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,7 +7707,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 219.71 102.87 0)
+			(at 255.27 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,7 +7731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
 		(at 180.34 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7529,7 +7755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RevK:C_0603"
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 184.15 118.4148 0)
 			(effects
 				(font
@@ -7600,7 +7826,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 219.71 90.17 180)
+		(at 255.27 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7608,7 +7834,7 @@
 		(dnp no)
 		(uuid "dafb7dc8-bb36-44c1-87f3-ca419bede73e")
 		(property "Reference" "C22"
-			(at 223.774 92.456 0)
+			(at 259.334 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +7843,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 226.06 88.138 0)
+			(at 261.62 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,8 +7851,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RevK:C_0603"
-			(at 218.7448 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 254.3048 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,7 +7861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 90.17 0)
+			(at 255.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,7 +7870,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 90.17 0)
+			(at 255.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,7 +7879,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 219.71 90.17 0)
+			(at 255.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +7888,7 @@
 			)
 		)
 		(property "Part No" "0603-100pF-50V"
-			(at 219.71 90.17 0)
+			(at 255.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7897,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 219.71 90.17 0)
+			(at 255.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +7921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 196.85 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7719,8 +7945,8 @@
 				)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 196.85 112.268 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,8 +8015,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 204.47 101.6 180)
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 240.03 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7798,7 +8024,7 @@
 		(dnp no)
 		(uuid "e85a94da-53d7-4e50-b5d0-39cfab3c096b")
 		(property "Reference" "C19"
-			(at 204.724 103.632 0)
+			(at 240.284 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +8033,7 @@
 			)
 		)
 		(property "Value" "NC"
-			(at 204.724 99.568 0)
+			(at 240.284 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,8 +8041,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 203.5048 97.79 0)
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 239.0648 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,7 +8051,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 101.6 0)
+			(at 240.03 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7834,7 +8060,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 101.6 0)
+			(at 240.03 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7858,7 +8084,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 110.49 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7882,8 +8108,8 @@
 				)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 108.712 91.44 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 110.49 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,8 +8310,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 199.39 91.44 180)
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 234.95 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8093,7 +8319,7 @@
 		(dnp no)
 		(uuid "ea3da38a-6814-43dc-81d7-4780418d9166")
 		(property "Reference" "C16"
-			(at 196.85 92.71 0)
+			(at 232.41 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +8328,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 196.85 90.17 0)
+			(at 232.41 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,8 +8336,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RevK:C_0603"
-			(at 198.4248 87.63 0)
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 233.9848 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +8346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 91.44 0)
+			(at 234.95 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +8355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 91.44 0)
+			(at 234.95 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +8364,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 199.39 91.44 0)
+			(at 234.95 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +8373,7 @@
 			)
 		)
 		(property "Part No" "0603-220pF-50V"
-			(at 199.39 91.44 0)
+			(at 234.95 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +8382,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 199.39 91.44 0)
+			(at 234.95 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,8 +8471,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 199.39 101.6 0)
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
+		(at 234.95 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8254,7 +8480,7 @@
 		(dnp no)
 		(uuid "f6559eae-5bc6-463b-a1a5-efecd6cf5e53")
 		(property "Reference" "C17"
-			(at 196.85 102.87 0)
+			(at 232.41 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,7 +8489,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 196.85 100.33 0)
+			(at 232.41 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,8 +8497,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RevK:C_0603"
-			(at 200.3552 105.41 0)
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 235.9152 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,7 +8507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 101.6 0)
+			(at 234.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8516,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 101.6 0)
+			(at 234.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8525,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 199.39 101.6 0)
+			(at 234.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8534,7 @@
 			)
 		)
 		(property "Part No" "0603-220pF-50V"
-			(at 199.39 101.6 0)
+			(at 234.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +8543,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 199.39 101.6 0)
+			(at 234.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +8567,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_US_AKL:C_0603")
 		(at 90.17 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8367,7 +8593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RevK:C_0603"
+		(property "Footprint" "Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 86.36 131.7752 0)
 			(effects
 				(font
@@ -8504,8 +8730,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 228.6 106.68 90)
+		(lib_id "PCM_Resistor_AKL:R_0603")
+		(at 264.16 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8513,7 +8739,7 @@
 		(dnp no)
 		(uuid "fec47fbb-11f6-4052-9478-a5abe4cdeed0")
 		(property "Reference" "R5"
-			(at 223.774 108.204 90)
+			(at 259.334 143.764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,15 +8747,15 @@
 			)
 		)
 		(property "Value" "1R5 1%"
-			(at 228.6 110.744 90)
+			(at 264.16 146.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 228.6 108.458 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 275.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8764,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06031R50FKEA"
-			(at 228.6 106.68 0)
+			(at 264.16 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +8773,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 106.68 0)
+			(at 264.16 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +8782,7 @@
 			)
 		)
 		(property "Note" "0603"
-			(at 228.6 106.68 90)
+			(at 264.16 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8565,7 +8791,7 @@
 			)
 		)
 		(property "Part No" "CRCW06031R50FKEA"
-			(at 228.6 106.68 90)
+			(at 264.16 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8800,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 228.6 106.68 90)
+			(at 264.16 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)

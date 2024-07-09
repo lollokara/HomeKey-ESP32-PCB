@@ -248,127 +248,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LED:Inolux_IN-P55TATRGB"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -834,6 +713,129 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_Resistor_AKL:R_0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_0603"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor eu SMD 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2831,7 +2833,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 82.55 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2855,8 +2857,8 @@
 				)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 80.772 142.24 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 82.55 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +3197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 115.57 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3219,8 +3221,8 @@
 				)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 113.792 142.24 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 115.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 123.19 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3313,8 +3315,8 @@
 				)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 123.19 117.348 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3517,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 91.44 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3539,8 +3541,8 @@
 				)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 91.44 89.408 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 68.58 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3828,8 +3830,8 @@
 				)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 66.802 142.24 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 68.58 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 123.19 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4263,8 +4265,8 @@
 				)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 123.19 119.888 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +4604,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 91.44 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4626,8 +4628,8 @@
 				)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 91.44 94.488 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 102.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4698,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 91.44 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4720,8 +4722,8 @@
 				)
 			)
 		)
-		(property "Footprint" "RevK:R_0603"
-			(at 91.44 91.948 90)
+		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 102.87 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
