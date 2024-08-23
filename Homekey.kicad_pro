@@ -490,7 +490,7 @@
       "plot": "",
       "pos_files": "Gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Homekey.step",
       "svg": "",
       "vrml": ""
     },
