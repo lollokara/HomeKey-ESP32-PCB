@@ -3988,8 +3988,8 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
-			(at 143.256 98.552 0)
+		(property "Value" "3300pF"
+			(at 145.034 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
