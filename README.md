@@ -26,6 +26,12 @@ The board packs an **ESP32-C3** and an **NFC reader front-end with an on-board c
 - **Runs the original HomeKey-ESP32 firmware** — full Apple HomeKey / HomeKit compatibility
 - **Fully open hardware** — designed in **KiCad**, with schematics, layout, Gerbers and a 3D model included
 
+## Get the Board
+
+Don't want to fabricate it yourself? You can order the PCB directly from PCBWay:
+
+**➡️ [ESP32 HomeKey on PCBWay](https://www.pcbway.com/project/shareproject/ESP32_Homekey_77a119d7.html)**
+
 ## Designed in KiCad
 
 The entire board is designed with **[KiCad](https://www.kicad.org/)**, so the complete hardware source is open and editable. The repository includes:
@@ -61,9 +67,10 @@ HomeKey-ESP32-PCB/
 
 ## Getting Started
 
-### 1. Fabricate the Board
+### 1. Get the Board
 
-- Use the ready-to-order files in the [`Gerbers`](Gerbers) folder with your preferred PCB fab house.
+- **Buy it ready-made:** order the PCB directly from [PCBWay](https://www.pcbway.com/project/shareproject/ESP32_Homekey_77a119d7.html).
+- **Fabricate it yourself:** use the ready-to-order files in the [`Gerbers`](Gerbers) folder with your preferred PCB fab house.
 - Refer to `Homekey.xlsx` for the Bill of Materials and `Homekey.pdf` for the schematic.
 - To modify the design first, open `Homekey.kicad_pro` in KiCad.
 
